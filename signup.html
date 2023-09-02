@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>SignUp</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,19 +11,24 @@
 <div class="robot">
     <img src="assets/medrobo.png" alt="robot image">
 </div>
-<div class="login-content gap">
+<div class="login-content">
 
-    <h1>Welcome!</h1>
+    <h1>Create new account</h1>
 
     <form action="">
-        <label class="text label" for="user-name">Username</label>
-        <input class="text input" type="text" id="user-name" placeholder="Enter your username or password">
+        <label class="text label" for="name">Full Name</label>
+        <input class="text input" type="text" id="name" placeholder="Enter your Full Name here">
+
+        <label class="text label" for="email">email</label>
+        <input class="text input" type="text" required="@" id="email" placeholder="abc123@example.com">
+
         <label class="text label" for="password" >password</label>
         <input class="text input" type="password" id="password" placeholder="Enter your password here">
-        <input class="text login" type="submit" value="Log in">
+        
+        <input class="text login" type="submit" value="Sign Up">
     </form>
 
-    <a class="text" href="./signup.html">Don't have an account? Create an account</a>
+    <a class="text" href="./login.html">Already have an account? Create an account</a>
 
     <h2 class="">-OR-</h2>
 
