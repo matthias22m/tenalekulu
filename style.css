@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(132, 217, 242, 0.75);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.robot{
+    
+    width: 40%;
+}
+
+.robot img{
+    width: 100%;
+}
+
+.login-content{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 60%;
+    border-radius: 25px 0px 0px 25px;
+    background: #417F87;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10%;
+}
+
+.login-content{
+    color: #F9ED32;
+}
+.login-content form input{
+    display: block;
+    height: 20%;
+    width: 100%;
+}
+
+.login-content form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    width: 60%;
+}
+
+.login-content form .input{
+    margin-bottom: 5%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: rgba(105, 205, 219, 0.50);
+}
+
+.login-content form .label{
+    font-size: 1.3em;
+}
+
+.login-content form .login{
+    color: black;
+    background-color: #F9ED32;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+    align-self: center;
+}
+
+.login-content h2{
+    color: #F9ED32;
+}
+
+.login-content .google{
+    height: 6%;
+    width: auto;
+    display: flex;
+    background: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #9CDCEE;
+}
+.login-content .google img{
+    height: 100%;
+}
+.text{
+    font-size: 1rem;
+    padding-left: 2%;
+    color:  #F9ED32;;
+}
